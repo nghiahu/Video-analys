@@ -1,0 +1,29 @@
+{
+  "pipeline_version": "2.0",
+  "video_id": "DJI_20261117190240_0038_D_AZ1",
+  "source_path": "videos/DJI_20261117190240_0038_D_AZ1.MP4",
+  "fingerprints": {
+    "sha256": "388adadbfa755a4a8941d48e93448125198e939947f05c9dcffda8817c5feba4",
+    "file_size_bytes": 50133495,
+    "duration_sec": 6.94,
+    "resolution": "3840x2160",
+    "fps": 29.97,
+    "video_codec": "hevc"
+  },
+  "extraction": {
+    "extracted_at": "2026-11-20T07:58:24.986Z",
+    "scene_detector": {
+      "method": "scdet",
+      "threshold": 10
+    },
+    "silence_detector": {
+      "noise_db": -35,
+      "min_duration_sec": 0.7
+    },
+    "chunk_strategy": "boundary_with_3s_overlap",
+    "scene_change_candidates": [],
+    "silence_ranges": []
+  },
+  "status": "completed",
+  "completed_at": "2026-11-20T08:29:27.907Z"
+}

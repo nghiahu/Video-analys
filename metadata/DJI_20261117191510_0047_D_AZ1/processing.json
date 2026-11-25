@@ -1,0 +1,100 @@
+{
+  "pipeline_version": "2.0",
+  "video_id": "DJI_20261117191510_0047_D_AZ1",
+  "source_path": "videos/DJI_20261117191510_0047_D_AZ1.MP4",
+  "fingerprints": {
+    "sha256": "7f4beb49c64469fb5bb716318613933ae95f66c8e5fb40bfef7c4affd4a67034",
+    "file_size_bytes": 548450582,
+    "duration_sec": 83.24,
+    "resolution": "3840x2160",
+    "fps": 29.97,
+    "video_codec": "hevc"
+  },
+  "extraction": {
+    "extracted_at": "2026-11-20T08:02:31.502Z",
+    "scene_detector": {
+      "method": "scdet",
+      "threshold": 10
+    },
+    "silence_detector": {
+      "noise_db": -35,
+      "min_duration_sec": 0.7
+    },
+    "chunk_strategy": "boundary_with_3s_overlap",
+    "scene_change_candidates": [],
+    "silence_ranges": [
+      {
+        "start": 1.05,
+        "end": 2.03,
+        "duration": 0.98
+      },
+      {
+        "start": 2.38,
+        "end": 3.3,
+        "duration": 0.91
+      },
+      {
+        "start": 14.98,
+        "end": 15.68,
+        "duration": 0.7
+      },
+      {
+        "start": 23.63,
+        "end": 24.35,
+        "duration": 0.72
+      },
+      {
+        "start": 30.86,
+        "end": 31.67,
+        "duration": 0.8
+      },
+      {
+        "start": 33.77,
+        "end": 34.59,
+        "duration": 0.81
+      },
+      {
+        "start": 37.51,
+        "end": 38.28,
+        "duration": 0.77
+      },
+      {
+        "start": 50.41,
+        "end": 51.28,
+        "duration": 0.87
+      },
+      {
+        "start": 52.36,
+        "end": 53.12,
+        "duration": 0.76
+      },
+      {
+        "start": 54.17,
+        "end": 55,
+        "duration": 0.83
+      },
+      {
+        "start": 59.69,
+        "end": 60.4,
+        "duration": 0.71
+      },
+      {
+        "start": 62.46,
+        "end": 63.39,
+        "duration": 0.93
+      },
+      {
+        "start": 72.67,
+        "end": 73.42,
+        "duration": 0.76
+      },
+      {
+        "start": 78.54,
+        "end": 79.33,
+        "duration": 0.79
+      }
+    ]
+  },
+  "status": "completed",
+  "completed_at": "2026-11-20T08:39:28.725Z"
+}
